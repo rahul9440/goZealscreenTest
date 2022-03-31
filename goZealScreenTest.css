@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.title-section {
+    text-align: center;
+}
+
+.file-upload {
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid #b3b3b3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+
+}
+
+.container {
+    width: 80vw;
+    margin: 7vw;
+    border: 2px solid #b3b3b3;
+    padding: 15px;
+}
+
+.file-upload-input {
+    display: none;
+}
+
+.file-upload-button {
+    color: #ffffff;
+    background-color: #884dff;
+    border: 2px solid #661aff;
+    border-radius: 12px;
+    width: 90px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Roboto";
+}
+
+.save-button {
+    height: 30px;
+    width: 150px;
+    background: #884dff;
+    border: 2px solid #661aff;
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    box-shadow: 2px 2px #c2c2d6;
+}
+
+.file-upload-label {
+    max-width: 250px;
+    text-overflow: ellipsis;
+    font-size: 0.8em;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: "Quicksand", sans-serif;
+}
+
+.box-label {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.box-container {
+    display: flex;
+}
+
+.save {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.success {
+    display: none;
+}
+
+.count {
+    background: #b84dff;
+    color: #ffffff;
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+}
+
+.para {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.issue-name {
+    font-size: 16px;
+    color: #999999;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.show-container-off {
+    display: none;
+}
+
+.show-container {
+    border: 2px solid #595959;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.inside-align {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
